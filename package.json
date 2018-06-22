@@ -1,0 +1,35 @@
+{
+  "name": "flutter-snippets",
+  "displayName": "Flutter Widget Snippets",
+  "description": "A set of helpful widget snippets for day to day Flutter development",
+  "version": "0.0.1",
+  "license": "MIT",
+  "publisher": "alexisvt",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "icon": "assets/flutter.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [{
+      "language": "dart",
+      "path": "./snippets/dart.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alexisvt/flutter-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alexisvt/flutter-snippets/issues",
+    "email": "alexisvt@gmail.com"
+  },
+  "keywords": [
+    "dart",
+    "snippet",
+    "flutter",
+    "widgets"
+  ]
+}

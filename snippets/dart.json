@@ -1,0 +1,167 @@
+{
+  "Scaffold widget snippet": {
+    "prefix": "fwscaffoldw",
+    "body": [
+      "Scaffold(",
+      "      appBar: AppBar(",
+      "        title: Text('${1:text}'),",
+      "      ),",
+      "      body: Container(",
+      "        padding: EdgeInsets.all(${2:32.0}),",
+      "        child: Center(",
+      "          child: Column(",
+      "            children: <Widget>[],",
+      "          ),",
+      "        ),",
+      "      ),",
+      "    );",
+      "${0}"
+    ],
+    "description": "Scaffold widget snippet"
+  },
+  "StatefulWidget snippet App": {
+    "prefix": "fstfulwapp",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "void main() => runApp(MaterialApp(",
+      "      home: ${1:MyApp}(),",
+      "    ));",
+      "",
+      "class ${1:MyApp} extends StatefulWidget {",
+      "  @override",
+      "  _${1:MyApp}State createState() => _${1:MyApp}State();",
+      "}",
+      "",
+      "class _${1:MyApp}State extends State<${1:MyApp}> {",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Scaffold(",
+      "      appBar: AppBar(",
+      "        title: Text('${2:text}'),",
+      "      ),",
+      "      body: Container(",
+      "        padding: EdgeInsets.all(${3:32.0}),",
+      "        child: Center(",
+      "          child: Column(",
+      "            children: <Widget>[${0}],",
+      "          ),",
+      "        ),",
+      "      ),",
+      "    );",
+      "  }",
+      "}"
+    ],
+    "description": "StatefulWidget snippet App"
+  },
+  "StatelessWidget snippet": {
+    "prefix": "fstlessw",
+    "body": [
+      "class ${1:MyWidget} extends StatelessWidget {",
+      "  @override",
+      "  Widget build(BuildContext context){",
+      "    return ${2:Container}(${0});",
+      "  }",
+      "}"
+    ],
+    "description": "StatelessWidget snippet"
+  },
+  "EdgeInsets.all widget snippet": {
+    "prefix": "fedgeiallw",
+    "body": [
+      "EdgeInsets.all(${1:32.0})${0}"
+    ],
+    "description": "EdgeInsets.all widget snippet"
+  },
+  "Text widget snippet": {
+    "prefix": "ftxtw",
+    "body": [
+      "Text('${1:text}')${0}"
+    ],
+    "description": "Text widget snippet"
+  },
+  "Dart Public Instance variable snippet": {
+    "prefix": "dinvar",
+    "body": [
+      "${1:String} ${2:variableName} = ${3:null};${0}"
+    ],
+    "description": "Instance variable snippet"
+  },
+  "Dart Private instance variable snippet": {
+    "prefix": "dprinvar",
+    "body": [
+      "${1:String} _${2:variableName} = ${3:null};${0}"
+    ],
+    "description": "Dart Private instance variable snippet"
+  },
+  "Flutter initState lifecycle method snippet": {
+    "prefix": "finitlfm",
+    "body": [
+      "@override",
+      "void initState() {",
+      "  super.initState();",
+      "  ${0}",
+      "}"
+    ],
+    "description": "Flutter initState lifecycle method"
+  },
+  "Dart private method snippet": {
+    "prefix": "dprmt",
+    "body": [
+      "${1:void} _${2:methodName}(${3}) {",
+      "  ${0}",
+      "}"
+    ],
+    "description": "Dart private method snippet"
+  },
+  "Dart optional named parameters constructor snippet": {
+    "prefix": "dopnctor",
+    "body": [
+      "${1:constructorName}({${2}});${0}"
+    ],
+    "description": "Dart optional named parameters constructor snippet"
+  },
+  "Flutter Icon widget snippet": {
+    "prefix": "ficw",
+    "body": [
+      "Icon(Icons.${1:clear})${0}"
+    ],
+    "description": "Flutter Icon widget snippet"
+  },
+  "Flutter Container widget snippet": {
+    "prefix": "fcontw",
+    "body": [
+      "Container(",
+      "  child: ${1:Widget}(${0}),",
+      ")"
+    ],
+    "description": "Flutter Container widget snippet"
+  },
+  "Flutter Center widget snippet": {
+    "prefix": "fcentw",
+    "body": [
+      "Center(",
+      "  child: ${1:Widget}(${0}),",
+      ")"
+    ],
+    "description": "Flutter Center widget snippet"
+  },
+  "Flutter Row widget snippet": {
+    "prefix": "froww",
+    "body": [
+      "Row(",
+      "  children: [${0}],",
+      ")"
+    ],
+    "description": "Flutter Row widget snippet"
+  },
+  "Flutter Column widget snippet": {
+    "prefix": "fcolw",
+    "body": [
+      "Column(",
+      "  children: [${0}],",
+      ")"
+    ],
+    "description": "Flutter Column widget snippet"
+  }
+}
