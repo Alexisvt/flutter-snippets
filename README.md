@@ -8,9 +8,9 @@ A set of helpful widget snippets for day to day Flutter development
 
 Simply Flutter set of snippets
 
-I'm working hard to select the day to day widgets, so wait for more!.
+I'm working hard to select all the day to day widgets, so wait for more!.
 
-## Snippets
+### Snippets
 
 | Snippet       | Renders                                            |
 | ------------- | -------------------------------------------------- |
@@ -31,8 +31,6 @@ I'm working hard to select the day to day widgets, so wait for more!.
 | `fcolw`       | Flutter Column widget snippet                      |
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 0.0.1
 
