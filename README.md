@@ -14,6 +14,6 @@ I'm working hard to select the day to day widgets, so wait for more!.
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0.1
 
 Initial release
