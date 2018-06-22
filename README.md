@@ -1,6 +1,6 @@
 # flutter-snippets README
 
-![snippets in action](assets/snippets-in-action.gif)
+![snippets in action](assets/flutter-snippet-sample.gif)
 
 A set of helpful widget snippets for day to day Flutter development
 
