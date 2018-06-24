@@ -1,4 +1,4 @@
-# flutter-snippets README
+# README
 
 ![snippets in action](assets/flutter-snippet-sample.gif)
 
@@ -12,25 +12,53 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ### Snippets
 
-| Snippet       | Renders                                            |
-| ------------- | -------------------------------------------------- |
-| `fwscaffoldw` | Scaffold widget snippet                            |
-| `fstfulwapp`  | StatefulWidget snippet App                         |
-| `fstlessw`    | StatelessWidget snippet                            |
-| `fedgeiallw`  | EdgeInsets.all widget snippet                      |
-| `ftxtw`       | Text widget snippet                                |
-| `dinvar`      | Dart Public Instance variable snippet              |
-| `dprinvar`    | Dart Private instance variable snippet             |
-| `finitlfm`    | Flutter initState lifecycle method snippet         |
-| `dprmt`       | Dart private method snippet                        |
-| `dopnctor`    | Dart optional named parameters constructor snippet |
-| `ficw`        | Flutter Icon widget snippet                        |
-| `fcontw`      | Flutter Container widget snippet                   |
-| `fcentw`      | Flutter Center widget snippet                      |
-| `froww`       | Flutter Row widget snippet                         |
-| `fcolw`       | Flutter Column widget snippet                      |
+| Snippet     | Renders                                                 |
+| ----------- | ------------------------------------------------------- |
+| `fscaff`    | Scaffold widget snippet                                 |
+| `fstfulapp` | StatefulWidget snippet App                              |
+| `fstless`   | StatelessWidget snippet                                 |
+| `fedgall`   | EdgeInsets widget snippet with named constructor `all`  |
+| `fedgonly`  | EdgeInsets widget snippet with named constructor `only` |
+| `ftxt`      | Text widget snippet                                     |
+| `dinvar`    | Dart Public Instance variable snippet                   |
+| `dprinvar`  | Dart Private instance variable snippet                  |
+| `finitlf`   | Flutter initState lifecycle method snippet              |
+| `dprmt`     | Dart private method snippet                             |
+| `dopnctor`  | Dart optional named parameters constructor snippet      |
+| `fic`       | Flutter Icon widget snippet                             |
+| `fcont`     | Flutter Container widget snippet                        |
+| `fcent`     | Flutter Center widget snippet                           |
+| `frow`      | Flutter Row widget snippet                              |
+| `fcol`      | Flutter Column widget snippet                           |
+| `fex`       | Expand widget snippet                                   |
+| `fszbw`     | SizedBox widget snippet with just width argument        |
+| `fszbh`     | SizedBox widget snippet with just height argument       |
+| `fszb`      | SizedBox widget with width and height arguments         |
 
 ## Release Notes
+
+### 0.0.2
+
+- New Snippets:
+  - fex - xpand widget snippet
+  - fszbw - SizedBox widget snippet with just width argument
+  - fszbh - SizedBox widget snippet with just height argument
+  - fszb - SizedBox widget with width and height arguments
+  - fedgonly - EdgeInsets widget snippet with named constructor `only`
+- Renamed snippets:
+  - fedgeiallw -> fedgall
+  - froww -> frow
+  - fcolw -> fcol
+  - fcontw -> fcont
+  - fcentw -> fcent
+  - fwscaffoldw -> fscaff
+  - fstlessw -> fstless
+  - fstfulwapp -> fstfulapp
+  - ftxtw -> ftxt
+  - finitlfm -> finitlf
+  - ficw - fic
+- Fixes:
+  - Fix the path of the gift image
 
 ### 0.0.1
 

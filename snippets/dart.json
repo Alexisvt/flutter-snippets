@@ -1,6 +1,6 @@
 {
   "Scaffold widget snippet": {
-    "prefix": "fwscaffoldw",
+    "prefix": "fscaff",
     "body": [
       "Scaffold(",
       "      appBar: AppBar(",
@@ -20,7 +20,7 @@
     "description": "Scaffold widget snippet"
   },
   "StatefulWidget snippet App": {
-    "prefix": "fstfulwapp",
+    "prefix": "fstfulapp",
     "body": [
       "import 'package:flutter/material.dart';",
       "",
@@ -55,7 +55,7 @@
     "description": "StatefulWidget snippet App"
   },
   "StatelessWidget snippet": {
-    "prefix": "fstlessw",
+    "prefix": "fstless",
     "body": [
       "class ${1:MyWidget} extends StatelessWidget {",
       "  @override",
@@ -66,15 +66,15 @@
     ],
     "description": "StatelessWidget snippet"
   },
-  "EdgeInsets.all widget snippet": {
-    "prefix": "fedgeiallw",
+  "EdgeInsets widget snippet with named constructor `all`": {
+    "prefix": "fedgall",
     "body": [
       "EdgeInsets.all(${1:32.0})${0}"
     ],
-    "description": "EdgeInsets.all widget snippet"
+    "description": "EdgeInsets widget snippet with named constructor `all`"
   },
   "Text widget snippet": {
-    "prefix": "ftxtw",
+    "prefix": "ftxt",
     "body": [
       "Text('${1:text}')${0}"
     ],
@@ -95,7 +95,7 @@
     "description": "Dart Private instance variable snippet"
   },
   "Flutter initState lifecycle method snippet": {
-    "prefix": "finitlfm",
+    "prefix": "finitlf",
     "body": [
       "@override",
       "void initState() {",
@@ -122,14 +122,14 @@
     "description": "Dart optional named parameters constructor snippet"
   },
   "Flutter Icon widget snippet": {
-    "prefix": "ficw",
+    "prefix": "fic",
     "body": [
       "Icon(Icons.${1:clear})${0}"
     ],
     "description": "Flutter Icon widget snippet"
   },
   "Flutter Container widget snippet": {
-    "prefix": "fcontw",
+    "prefix": "fcont",
     "body": [
       "Container(",
       "  child: ${1:Widget}(${0}),",
@@ -138,7 +138,7 @@
     "description": "Flutter Container widget snippet"
   },
   "Flutter Center widget snippet": {
-    "prefix": "fcentw",
+    "prefix": "fcent",
     "body": [
       "Center(",
       "  child: ${1:Widget}(${0}),",
@@ -147,7 +147,7 @@
     "description": "Flutter Center widget snippet"
   },
   "Flutter Row widget snippet": {
-    "prefix": "froww",
+    "prefix": "frow",
     "body": [
       "Row(",
       "  children: [${0}],",
@@ -156,12 +156,53 @@
     "description": "Flutter Row widget snippet"
   },
   "Flutter Column widget snippet": {
-    "prefix": "fcolw",
+    "prefix": "fcol",
     "body": [
       "Column(",
       "  children: [${0}],",
       ")"
     ],
     "description": "Flutter Column widget snippet"
+  },
+  "SizedBox widget snippet with width and height arguments": {
+    "prefix": "fszb",
+    "body": [
+      "SizedBox(width: ${1:0.0}, height: ${2:0.0})${0}"
+    ],
+    "description": "SizedBox widget with width and height arguments"
+  },
+  "SizedBox widget snippet with just width argument": {
+    "prefix": "fszbw",
+    "body": [
+      "SizedBox(",
+      "  width: ${1:0.0},${0}",
+      ")"
+    ],
+    "description": "SizedBox widget snippet with just width argument"
+  },
+  "SizedBox widget snippet with just height argument": {
+    "prefix": "fszbh",
+    "body": [
+      "SizedBox(",
+      "  height: ${1:0.0},${0}",
+      ")"
+    ],
+    "description": "SizedBox widget snippet with just height argument"
+  },
+  "Expand widget snippet": {
+    "prefix": "fex",
+    "body": [
+      "Expanded(",
+      "  child: ${1:null},${0}",
+      ")"
+    ],
+    "description": "Expand widget snippet"
+  },
+  "EdgeInsets widget snippet with named constructor `only`": {
+    "prefix": "fedgonly",
+    "body": [
+      "EdgeInsets.only(${1})${0}"
+    ],
+    "description": "EdgeInsets widget snippet with named constructor `only`"
   }
 }
