@@ -58,7 +58,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
   - finitlfm -> finitlf
   - ficw - fic
 - Fixes:
-  - Fix the path of the gift image
+  - path of the gif image
 
 ### 0.0.1
 
