@@ -37,10 +37,15 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ## Release Notes
 
+### 0.0.3
+
+- Fixes
+  - Typos
+
 ### 0.0.2
 
 - New Snippets:
-  - fex - xpand widget snippet
+  - fex - Expand widget snippet
   - fszbw - SizedBox widget snippet with just width argument
   - fszbh - SizedBox widget snippet with just height argument
   - fszb - SizedBox widget with width and height arguments
