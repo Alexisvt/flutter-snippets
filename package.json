@@ -2,7 +2,7 @@
   "name": "flutter-snippets",
   "displayName": "Flutter Widget Snippets",
   "description": "A set of helpful widget snippets for day to day Flutter development",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "publisher": "alexisvt",
   "engines": {
