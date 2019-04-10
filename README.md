@@ -40,6 +40,11 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ## Release Notes
 
+### 0.0.4
+
+- Fixes
+  - add the material package import to fstless snippet.
+
 ### 0.0.3
 
 - Fixes

@@ -57,6 +57,8 @@
   "StatelessWidget snippet": {
     "prefix": "fstless",
     "body": [
+      "import 'package:flutter/material.dart';",
+      "",
       "class ${1:MyWidget} extends StatelessWidget {",
       "  @override",
       "  Widget build(BuildContext context){",
