@@ -12,7 +12,9 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ### Snippets
 
-| Snippet     | Renders                                                                          |
+### Flutter related snippets
+
+| Snippet     | Description                                                                      |
 | ----------- | -------------------------------------------------------------------------------- |
 | `fscaff`    | Scaffold widget snippet                                                          |
 | `fstfulapp` | StatefulWidget snippet App                                                       |
@@ -20,11 +22,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `fedgall`   | EdgeInsets widget snippet with named constructor `all`                           |
 | `fedgonly`  | EdgeInsets widget snippet with named constructor `only`                          |
 | `ftxt`      | Text widget snippet                                                              |
-| `dinvar`    | Dart Public Instance variable snippet                                            |
-| `dprinvar`  | Dart Private instance variable snippet                                           |
 | `finitlf`   | Flutter initState lifecycle method snippet                                       |
-| `dprmt`     | Dart private method snippet                                                      |
-| `dopnctor`  | Dart optional named parameters constructor snippet                               |
 | `fic`       | Flutter Icon widget snippet                                                      |
 | `fcont`     | Flutter Container widget snippet                                                 |
 | `fcent`     | Flutter Center widget snippet                                                    |
@@ -38,7 +36,34 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `fedgsymv`  | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
 | `fedgsymh`  | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
 
+### Dart related snippets
+
+| Snippet    | Description                                        |
+| ---------- | -------------------------------------------------- |
+| `dinvar`   | Dart Public Instance variable snippet              |
+| `dprinvar` | Dart Private instance variable snippet             |
+| `dprmt`    | Dart private method snippet                        |
+| `dopnctor` | Dart optional named parameters constructor snippet |
+| `dlist`    | Dart `List` collection snippet                     |
+| `dmap`     | Dart `Map` collection snippet                      |
+| `dset`     | Dart `Set` collection snippet                      |
+| `dgetarr`  | Dart arrow function getter snippet                 |
+
 ## Release Notes
+
+### 0.0.4
+
+- Fixes:
+  - add the material package import to fstless snippet.
+- Refactors:
+  - change the type of `dinvar` and `dprinvar` to a more generic one (dynamic) and remove the initialization.
+  - remove the semicolon to `dinvar` snippet to allow use case when we want to use it as a function parameter.
+- Docs:
+  - organize the Flutter and the Dart snippets
+  - change the render header to description
+- Features:
+  - add Dart `List`, `Map` and `Set` collection snippets
+  - add Dart arrow function getter snippet
 
 ### 0.0.3
 
