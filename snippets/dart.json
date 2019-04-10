@@ -92,7 +92,7 @@
   "Dart Private instance variable snippet": {
     "prefix": "dprinvar",
     "body": [
-      "${1:dynamic} _${2:variableName}${0};"
+      "${1:dynamic} _${2:variableName};${0}"
     ],
     "description": "Dart Private instance variable snippet"
   },
