@@ -227,5 +227,26 @@
       "EdgeInsets.symmetric(horizontal: ${1:8.0},)${0}"
     ],
     "description": "EdgeInsets widget snippet with named constructor `symmetric` with only horizontal parameter"
+  },
+  "Dart `List` collection snippet": {
+    "prefix": "dlist",
+    "body": [
+      "List<${1:dynamic}> ${2:listName}${0};"
+    ],
+    "description": "Dart `List` collection snippet"
+  },
+  "Dart `Map` collection snippet": {
+    "prefix": "dmap",
+    "body": [
+      "Map<${1:dynamic}, ${2:dynamic}> ${3:mapName}${0};"
+    ],
+    "description": "Dart `Map` collection snippet"
+  },
+  "Dart `Set` collection snippet": {
+    "prefix": "dset",
+    "body": [
+      "Set<${1:dynamic}> ${2:setName}${0};"
+    ],
+    "description": "Dart `Set` collection snippet"
   }
 }

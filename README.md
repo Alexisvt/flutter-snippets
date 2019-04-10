@@ -44,6 +44,9 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `dprinvar` | Dart Private instance variable snippet             |
 | `dprmt`    | Dart private method snippet                        |
 | `dopnctor` | Dart optional named parameters constructor snippet |
+| `dlist`    | Dart `List` collection snippet                     |
+| `dmap`     | Dart `Map` collection snippet                      |
+| `dset`     | Dart `Set` collection snippet                      |
 
 ## Release Notes
 
@@ -56,6 +59,8 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 - Docs:
   - organize the Flutter and the Dart snippets
   - change the render header to description
+- Features:
+  - add Dart `List`, `Map` and `Set` collection snippets
 
 ### 0.0.3
 
