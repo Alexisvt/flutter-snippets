@@ -85,14 +85,14 @@
   "Dart Public Instance variable snippet": {
     "prefix": "dinvar",
     "body": [
-      "${1:String} ${2:variableName} = ${3:null};${0}"
+      "${1:dynamic} ${2:variableName};${0}"
     ],
     "description": "Instance variable snippet"
   },
   "Dart Private instance variable snippet": {
     "prefix": "dprinvar",
     "body": [
-      "${1:String} _${2:variableName} = ${3:null};${0}"
+      "${1:dynamic} _${2:variableName};${0}"
     ],
     "description": "Dart Private instance variable snippet"
   },

@@ -51,6 +51,8 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 - Fixes:
   - add the material package import to fstless snippet.
+- Refactors:
+  - change the type of `dinvar` and `dprinvar` to a more generic one (dynamic) and remove the initialization.
 - Docs:
   - organize the Flutter and the Dart snippets
   - change the render header to description
