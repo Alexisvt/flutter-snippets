@@ -204,5 +204,26 @@
       "EdgeInsets.only(${1})${0}"
     ],
     "description": "EdgeInsets widget snippet with named constructor `only`"
+  },
+  "EdgeInsets widget snippet with symmetric contructor `symmetric`": {
+    "prefix": "fedgsym",
+    "body": [
+      "EdgeInsets.symmetric(vertical: ${1:8.0}, horizontal: ${2:8.0},)${0}"
+    ],
+    "description": "EdgeInsets widget snippet with named constructor `symmetric`"
+  },
+  "EdgeInsets widget snippet with symmetric contructor `symmetric` with only vertical parameter": {
+    "prefix": "fedgsymv",
+    "body": [
+      "EdgeInsets.symmetric(vertical: ${1:8.0},)${0}"
+    ],
+    "description": "EdgeInsets widget snippet with named constructor `symmetric` with only vertical parameter"
+  },
+  "EdgeInsets widget snippet with symmetric contructor `symmetric` with only horizontal parameter": {
+    "prefix": "fedgsymh",
+    "body": [
+      "EdgeInsets.symmetric(horizontal: ${1:8.0},)${0}"
+    ],
+    "description": "EdgeInsets widget snippet with named constructor `symmetric` with only horizontal parameter"
   }
 }

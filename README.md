@@ -12,28 +12,31 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ### Snippets
 
-| Snippet     | Renders                                                 |
-| ----------- | ------------------------------------------------------- |
-| `fscaff`    | Scaffold widget snippet                                 |
-| `fstfulapp` | StatefulWidget snippet App                              |
-| `fstless`   | StatelessWidget snippet                                 |
-| `fedgall`   | EdgeInsets widget snippet with named constructor `all`  |
-| `fedgonly`  | EdgeInsets widget snippet with named constructor `only` |
-| `ftxt`      | Text widget snippet                                     |
-| `dinvar`    | Dart Public Instance variable snippet                   |
-| `dprinvar`  | Dart Private instance variable snippet                  |
-| `finitlf`   | Flutter initState lifecycle method snippet              |
-| `dprmt`     | Dart private method snippet                             |
-| `dopnctor`  | Dart optional named parameters constructor snippet      |
-| `fic`       | Flutter Icon widget snippet                             |
-| `fcont`     | Flutter Container widget snippet                        |
-| `fcent`     | Flutter Center widget snippet                           |
-| `frow`      | Flutter Row widget snippet                              |
-| `fcol`      | Flutter Column widget snippet                           |
-| `fex`       | Expand widget snippet                                   |
-| `fszbw`     | SizedBox widget snippet with just width argument        |
-| `fszbh`     | SizedBox widget snippet with just height argument       |
-| `fszb`      | SizedBox widget with width and height arguments         |
+| Snippet     | Renders                                                                          |
+| ----------- | -------------------------------------------------------------------------------- |
+| `fscaff`    | Scaffold widget snippet                                                          |
+| `fstfulapp` | StatefulWidget snippet App                                                       |
+| `fstless`   | StatelessWidget snippet                                                          |
+| `fedgall`   | EdgeInsets widget snippet with named constructor `all`                           |
+| `fedgonly`  | EdgeInsets widget snippet with named constructor `only`                          |
+| `ftxt`      | Text widget snippet                                                              |
+| `dinvar`    | Dart Public Instance variable snippet                                            |
+| `dprinvar`  | Dart Private instance variable snippet                                           |
+| `finitlf`   | Flutter initState lifecycle method snippet                                       |
+| `dprmt`     | Dart private method snippet                                                      |
+| `dopnctor`  | Dart optional named parameters constructor snippet                               |
+| `fic`       | Flutter Icon widget snippet                                                      |
+| `fcont`     | Flutter Container widget snippet                                                 |
+| `fcent`     | Flutter Center widget snippet                                                    |
+| `frow`      | Flutter Row widget snippet                                                       |
+| `fcol`      | Flutter Column widget snippet                                                    |
+| `fex`       | Expand widget snippet                                                            |
+| `fszbw`     | SizedBox widget snippet with just width argument                                 |
+| `fszbh`     | SizedBox widget snippet with just height argument                                |
+| `fszb`      | SizedBox widget with width and height arguments                                  |
+| `fedgsym`   | EdgeInsets widget with named constructor `symmetric`                             |
+| `fedgsymv`  | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
+| `fedgsymh`  | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
 
 ## Release Notes
 
@@ -41,6 +44,12 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 - Fixes
   - Typos
+- New snippets:
+  - fedgsym - EdgeInsets widget with named constructor `symmetric`
+  - fedgsymv - EdgeInsets widget with named constructor `symmetric` with `vertical` parameter
+  - fedgsymh - EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter
+- Special thanks to:
+  - [Ajil Ooommen](https://github.com/ajilo297): Add fedgsym, fedgsymv, fedgsymh snippets.
 
 ### 0.0.2
 

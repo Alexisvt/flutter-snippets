@@ -13,10 +13,12 @@
     "Snippets"
   ],
   "contributes": {
-    "snippets": [{
-      "language": "dart",
-      "path": "./snippets/dart.json"
-    }]
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/dart.json"
+      }
+    ]
   },
   "repository": {
     "type": "git",
