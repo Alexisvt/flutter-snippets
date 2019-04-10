@@ -47,6 +47,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `dlist`    | Dart `List` collection snippet                     |
 | `dmap`     | Dart `Map` collection snippet                      |
 | `dset`     | Dart `Set` collection snippet                      |
+| `dgetarr`  | Dart arrow function getter snippet                 |
 
 ## Release Notes
 
@@ -62,6 +63,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
   - change the render header to description
 - Features:
   - add Dart `List`, `Map` and `Set` collection snippets
+  - add Dart arrow function getter snippet
 
 ### 0.0.3
 

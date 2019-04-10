@@ -248,5 +248,12 @@
       "Set<${1:dynamic}> ${2:setName}${0}"
     ],
     "description": "Dart `Set` collection snippet"
+  },
+  "Dart arrow function getter snippet": {
+    "prefix": "dgetarr",
+    "body": [
+      "${1:dynamic} get ${2:name} => ${3:returnValue};${0}"
+    ],
+    "description": "Dart arrow function getter snippet"
   }
 }
