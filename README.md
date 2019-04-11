@@ -40,7 +40,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 | Snippet    | Description                                        |
 | ---------- | -------------------------------------------------- |
-| `dvar`     | Dart `var` declaration snippet                     |
+| `dvar`     | Dart `var` variable declaration snippet            |
 | `dinvar`   | Dart Public Instance variable snippet              |
 | `dprinvar` | Dart Private instance variable snippet             |
 | `dprmt`    | Dart private method snippet                        |
