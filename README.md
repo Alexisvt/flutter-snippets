@@ -2,7 +2,7 @@
 
 ![snippets in action](assets/flutter-snippet-sample.gif)
 
-A set of helpful widget snippets for day to day Flutter development
+A set of helpful Flutter and Dart snippets for day to day Flutter development.
 
 ## Features
 
@@ -43,13 +43,29 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `dinvar`   | Dart Public Instance variable snippet              |
 | `dprinvar` | Dart Private instance variable snippet             |
 | `dprmt`    | Dart private method snippet                        |
+| `dmt`      | Dart public method snippet                         |
 | `dopnctor` | Dart optional named parameters constructor snippet |
 | `dlist`    | Dart `List` collection snippet                     |
 | `dmap`     | Dart `Map` collection snippet                      |
 | `dset`     | Dart `Set` collection snippet                      |
 | `dgetarr`  | Dart arrow function getter snippet                 |
+| `dimpas`   | Dart `import as` snippet                           |
+| `dimpshow` | Dart `import show` snippet                         |
+| `dimplazy` | Dart `import deffered as` snippet                  |
+| `dimphide` | Dart `import hide` snippet                         |
+| `dexhide`  | Dart `export hide` snippet                         |
+| `dexshow`  | Dart `export show` snippet                         |
+| `dconvert` | Dart `convert` lib import snippet                  |
 
 ## Release Notes
+
+### 1.2.0
+
+- Features:
+  - add `dimpas`, `dimpshow`, `dimplazy`, `dimphide` import snippets.
+  - add `dexhide` and `dexshow` export snippets.
+  - add `dmt` public method snippets.
+  - add `convert` lib import snippet.
 
 ### 1.0.0
 
