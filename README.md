@@ -64,7 +64,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ## Release Notes
 
-### 1.2.0
+### 1.1.0
 
 - Features:
   - add `dimpas`, `dimpshow`, `dimplazy`, `dimphide` import snippets.
