@@ -259,12 +259,12 @@
   },
   "Dart public arrow function snippet": {
     "prefix": "darr",
-    "body": ["${1:void} ${2:methodName}(${3}) => ${0};"],
+    "body": ["${1:Object} ${2:methodName}(${3}) => ${0};"],
     "description": "Dart public arrow function snippet"
   },
   "Dart private arrow function snippet": {
     "prefix": "dprarr",
-    "body": ["${1:void} _${2:methodName}(${3}) => ${0};"],
+    "body": ["${1:Object} _${2:methodName}(${3}) => ${0};"],
     "description": "Dart private arrow function snippet"
   }
 }
