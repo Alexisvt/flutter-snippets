@@ -95,7 +95,7 @@
   },
   "Dart private method snippet": {
     "prefix": "dprmt",
-    "body": ["${1:void} _${2:methodName}(${3}) {", "  ${0}", "}"],
+    "body": ["${1:void} _${2:methodName}(${3}) ${4}{", "  ${0}", "}"],
     "description": "Dart private method snippet"
   },
   "Dart optional named parameters constructor snippet": {
@@ -226,7 +226,7 @@
   },
   "Dart public method snippet": {
     "prefix": "dmt",
-    "body": ["${1:void} ${2:methodName}(${3}) {", "  ${0}", "}"],
+    "body": ["${1:void} ${2:methodName}(${3}) ${4}{", "  ${0}", "}"],
     "description": "Dart public method snippet"
   },
   "Dart `convert` lib import snippet": {
