@@ -40,7 +40,9 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 | Snippet    | Description                                        |
 | ---------- | -------------------------------------------------- |
-| `dvar`     | Dart `var` variable declaration snippet            |
+| `dvar`     | Dart variable declaration using `var`              |
+| `dfinal`   | Dart variable declaration using `final`            |
+| `dconst`   | Dart variable declaration using `const`            |
 | `dinvar`   | Dart Public Instance variable snippet              |
 | `dprinvar` | Dart Private instance variable snippet             |
 | `dprmt`    | Dart private method snippet                        |
@@ -67,7 +69,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
   - add `dexhide` and `dexshow` export snippets.
   - add `dmt` public method snippets.
   - add `convert` lib import snippet.
-  - add `var` declaration snippet.
+  - add `dvar`,`dfinal` and `dconst` variable declaration snippets.
 
 ### 1.0.0
 
