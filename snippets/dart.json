@@ -242,5 +242,19 @@
       "var ${1:variableName}${0};"
     ],
     "description": "Dart `var` variable declaration snippet"
+  },
+  "Dart `final` variable declaration snippet": {
+    "prefix": "dfinal",
+    "body": [
+      "final ${1:type} ${2:variableName} = ${3:value}${0};"
+    ],
+    "description": "Dart `final` variable declaration snippet"
+  },
+  "Dart `const` variable declaration snippet": {
+    "prefix": "dconst",
+    "body": [
+      "const ${1:type} ${2:variableName} = ${3:value}${0};"
+    ],
+    "description": "Dart `const` variable declaration snippet"
   }
 }
