@@ -45,8 +45,10 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `dconst`   | Dart variable declaration using `const`            |
 | `dinvar`   | Dart Public Instance variable snippet              |
 | `dprinvar` | Dart Private instance variable snippet             |
-| `dprmt`    | Dart private method snippet                        |
 | `dmt`      | Dart public method snippet                         |
+| `dprmt`    | Dart private method snippet                        |
+| `darr`     | Dart public arrow function snippet                 |
+| `dprarr`   | Dart private arrow function snippet                |
 | `dopnctor` | Dart optional named parameters constructor snippet |
 | `dlist`    | Dart `List` collection snippet                     |
 | `dmap`     | Dart `Map` collection snippet                      |
@@ -70,6 +72,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
   - add `dmt` public method snippets.
   - add `convert` lib import snippet.
   - add `dvar`,`dfinal` and `dconst` variable declaration snippets.
+  - add `darr` and `dprarr` arrow function snippets.
 
 ### 1.0.0
 
