@@ -200,5 +200,25 @@
     "prefix": "fimpmat",
     "body": ["import 'package:flutter/material.dart';"],
     "description": "Add material's package import statement"
+  },
+  "Flutter StreamBuilder widget snippet": {
+    "prefix": "fstream",
+    "body": [
+      "StreamBuilder<${1:dynamic}>(        ",
+      "  stream: ${2:yourStream},",
+      "  builder: (BuildContext context, AsyncSnapshot<${1:dynamic}> snapshot) {",
+      "      if (snapshot.hasData) {",
+      "       // TODO: do something with the data",
+      "       return ${3:Container()};",
+      "      } else if (snapshot.hasError) {",
+      "      // TODO: do something with the error",
+      "       return ${4:Text(snapshot.error.toString())};",
+      "      }",
+      "      // TODO: the data is not ready, show a loading indicator",
+      "      return ${5:Center(child: CircularProgressIndicator())};",
+      "   },",
+      ")"
+    ],
+    "description": "Flutter StreamBuilder widget snippet"
   }
 }
