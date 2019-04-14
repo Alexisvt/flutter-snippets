@@ -35,6 +35,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `fedgsym`   | EdgeInsets widget with named constructor `symmetric`                             |
 | `fedgsymv`  | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
 | `fedgsymh`  | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
+| `fimpmat`   | Add material's package import statement                                          |
 
 ### Dart related snippets
 
@@ -69,6 +70,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 - Features
   - remove `fstfulapp` and `fstless` since DartCode extension already has them.
   - add `fimpmat` snippet that add material package import statement.
+  - remove body content from `fscaff` snippet to a more generic value.
 
 ### 1.1.0
 

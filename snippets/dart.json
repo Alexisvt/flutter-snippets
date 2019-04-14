@@ -3,19 +3,11 @@
     "prefix": "fscaff",
     "body": [
       "Scaffold(",
-      "      appBar: AppBar(",
-      "        title: Text('${1:text}'),",
-      "      ),",
-      "      body: Container(",
-      "        padding: EdgeInsets.all(${2:32.0}),",
-      "        child: Center(",
-      "          child: Column(",
-      "            children: <Widget>[],",
-      "          ),",
-      "        ),",
-      "      ),",
-      "    );",
-      "${0}"
+      "  appBar: AppBar(",
+      "    title: Text(''),",
+      "  ),",
+      "body: ${2:Container()}${0},",
+      ");"
     ],
     "description": "Scaffold widget snippet"
   },
@@ -156,23 +148,17 @@
   },
   "Dart `import hide` snippet": {
     "prefix": "dimphide",
-    "body": [
-      "import '${1:packageName}' hide ${2:excludedMember}${0};"
-    ],
+    "body": ["import '${1:packageName}' hide ${2:excludedMember}${0};"],
     "description": "Dart `import hide` snippet"
   },
   "Dart `export hide` snippet": {
     "prefix": "dexhide",
-    "body": [
-      "export '${1:file}' hide ${2:excludedMember}${0};"
-    ],
+    "body": ["export '${1:file}' hide ${2:excludedMember}${0};"],
     "description": "Dart `export hide` snippet"
   },
   "Dart `export show` snippet": {
     "prefix": "dexshow",
-    "body": [
-      "export '${1:file}' show ${2:member}${0};"
-    ],
+    "body": ["export '${1:file}' show ${2:member}${0};"],
     "description": "Dart `export show` snippet"
   },
   "Dart public method snippet": {
@@ -182,30 +168,22 @@
   },
   "Dart `convert` lib import snippet": {
     "prefix": "dconvert",
-    "body": [
-      "import 'dart:convert'${0};"
-    ],
+    "body": ["import 'dart:convert'${0};"],
     "description": "Dart `convert` lib import snippet"
   },
   "Dart `var` variable declaration snippet": {
     "prefix": "dvar",
-    "body": [
-      "var ${1:variableName}${0};"
-    ],
+    "body": ["var ${1:variableName}${0};"],
     "description": "Dart `var` variable declaration snippet"
   },
   "Dart `final` variable declaration snippet": {
     "prefix": "dfinal",
-    "body": [
-      "final ${1:type} ${2:variableName} = ${3:value}${0};"
-    ],
+    "body": ["final ${1:type} ${2:variableName} = ${3:value}${0};"],
     "description": "Dart `final` variable declaration snippet"
   },
   "Dart `const` variable declaration snippet": {
     "prefix": "dconst",
-    "body": [
-      "const ${1:type} ${2:variableName} = ${3:value}${0};"
-    ],
+    "body": ["const ${1:type} ${2:variableName} = ${3:value}${0};"],
     "description": "Dart `const` variable declaration snippet"
   },
   "Dart public arrow function snippet": {
@@ -220,9 +198,7 @@
   },
   "Add material's package import statement": {
     "prefix": "fimpmat",
-    "body": [
-      "import 'package:flutter/material.dart';"
-    ],
-    "description": "Add `material` lib import statement"
+    "body": ["import 'package:flutter/material.dart';"],
+    "description": "Add material's package import statement"
   }
 }
