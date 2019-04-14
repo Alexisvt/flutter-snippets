@@ -19,55 +19,6 @@
     ],
     "description": "Scaffold widget snippet"
   },
-  "StatefulWidget snippet App": {
-    "prefix": "fstfulapp",
-    "body": [
-      "import 'package:flutter/material.dart';",
-      "",
-      "void main() => runApp(MaterialApp(",
-      "      home: ${1:MyApp}(),",
-      "    ));",
-      "",
-      "class ${1:MyApp} extends StatefulWidget {",
-      "  @override",
-      "  _${1:MyApp}State createState() => _${1:MyApp}State();",
-      "}",
-      "",
-      "class _${1:MyApp}State extends State<${1:MyApp}> {",
-      "  @override",
-      "  Widget build(BuildContext context) {",
-      "    return Scaffold(",
-      "      appBar: AppBar(",
-      "        title: Text('${2:text}'),",
-      "      ),",
-      "      body: Container(",
-      "        padding: EdgeInsets.all(${3:32.0}),",
-      "        child: Center(",
-      "          child: Column(",
-      "            children: <Widget>[${0}],",
-      "          ),",
-      "        ),",
-      "      ),",
-      "    );",
-      "  }",
-      "}"
-    ],
-    "description": "StatefulWidget snippet App"
-  },
-  "StatelessWidget snippet": {
-    "prefix": "fstless",
-    "body": [
-      "import 'package:flutter/material.dart';",
-      "",
-      "class ${1:MyWidget} extends StatelessWidget {",
-      "  @override",
-      "  Widget build(BuildContext context){",
-      "    return ${2:Container}(${0});",
-      "  }",
-      "}"
-    ],
-    "description": "StatelessWidget snippet"
-  },
   "EdgeInsets widget snippet with named constructor `all`": {
     "prefix": "fedgall",
     "body": ["EdgeInsets.all(${1:32.0})${0}"],
@@ -266,5 +217,12 @@
     "prefix": "dprarr",
     "body": ["${1:Object} _${2:methodName}(${3}) ${4}=> ${0};"],
     "description": "Dart private arrow function snippet"
+  },
+  "Add material's package import statement": {
+    "prefix": "fimpmat",
+    "body": [
+      "import 'package:flutter/material.dart';"
+    ],
+    "description": "Add `material` lib import statement"
   }
 }

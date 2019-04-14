@@ -64,6 +64,12 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ## Release Notes
 
+## 2.0.0
+
+- Features
+  - remove `fstfulapp` and `fstless` since DartCode extension already has them.
+  - add `fimpmat` snippet that add material package import statement.
+
 ### 1.1.0
 
 - Features:
