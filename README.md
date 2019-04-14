@@ -70,7 +70,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 - Features
   - remove `fstfulapp` and `fstless` since DartCode extension already has them.
   - add `fimpmat` snippet that add material package import statement.
-  - remove body content from `fscaff` snippet to a more generic value.
+  - replace body property value from `fscaff` snippet to a more generic value.
 
 ### 1.1.0
 
