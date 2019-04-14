@@ -6,7 +6,7 @@
       "  appBar: AppBar(",
       "    title: Text(''),",
       "  ),",
-      "body: ${2:Container()}${0},",
+      "  body: ${2:Container()}${0},",
       ");"
     ],
     "description": "Scaffold widget snippet"
