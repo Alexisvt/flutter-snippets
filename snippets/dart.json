@@ -4,7 +4,7 @@
     "body": [
       "Scaffold(",
       "  appBar: AppBar(",
-      "    title: Text(''),",
+      "    title: Text('${1:Title}'),",
       "  ),",
       "  body: ${2:Container()}${0},",
       ");"
@@ -178,12 +178,12 @@
   },
   "Dart `final` variable declaration snippet": {
     "prefix": "dfinal",
-    "body": ["final ${1:type} ${2:variableName} = ${3:value}${0};"],
+    "body": ["final ${1:type} ${2:variableName} ${3:= }${0};"],
     "description": "Dart `final` variable declaration snippet"
   },
   "Dart `const` variable declaration snippet": {
     "prefix": "dconst",
-    "body": ["const ${1:type} ${2:variableName} = ${3:value}${0};"],
+    "body": ["const ${1:type} ${2:variableName} ${3:= }${0};"],
     "description": "Dart `const` variable declaration snippet"
   },
   "Dart public arrow function snippet": {

@@ -73,6 +73,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
   - add `fimpmat` snippet that add material package import statement.
   - add `fstream` snippet that display an StreamBuilder widget
   - replace body property value from `fscaff` snippet to a more generic value.
+  - equal operator on `dfinal` and `dconst` now is optional
 
 ### 1.1.0
 
