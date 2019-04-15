@@ -63,12 +63,12 @@
   },
   "Flutter Row widget snippet": {
     "prefix": "frow",
-    "body": ["Row(", "  children: [${0}],", ")"],
+    "body": ["Row(", "  children: <Widget>[${0}],", ")"],
     "description": "Flutter Row widget snippet"
   },
   "Flutter Column widget snippet": {
     "prefix": "fcol",
-    "body": ["Column(", "  children: [${0}],", ")"],
+    "body": ["Column(", "  children: <Widget>[${0}],", ")"],
     "description": "Flutter Column widget snippet"
   },
   "SizedBox widget snippet with width and height arguments": {
