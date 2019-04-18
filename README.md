@@ -35,6 +35,8 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `fedgsym`   | EdgeInsets widget with named constructor `symmetric`                             |
 | `fedgsymv`  | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
 | `fedgsymh`  | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
+| `fimpmat`   | Add material's package import statement                                          |
+| `fstream`   | Display a StreamBuilder widget                                                   |
 
 ### Dart related snippets
 
@@ -63,6 +65,16 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `dconvert` | Dart `convert` lib import snippet                  |
 
 ## Release Notes
+
+## 2.0.0
+
+- Features
+  - remove `fstfulapp` and `fstless` since DartCode extension already has them.
+  - add `fimpmat` snippet that add material package import statement.
+  - add `fstream` snippet that display an StreamBuilder widget
+  - replace body property value from `fscaff` snippet to a more generic value.
+  - equal operator on `dfinal` and `dconst` now is optional
+  - add `<Widget>` generic type to `fcol` and `frow` snippets
 
 ### 1.1.0
 

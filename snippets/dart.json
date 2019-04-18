@@ -3,70 +3,13 @@
     "prefix": "fscaff",
     "body": [
       "Scaffold(",
-      "      appBar: AppBar(",
-      "        title: Text('${1:text}'),",
-      "      ),",
-      "      body: Container(",
-      "        padding: EdgeInsets.all(${2:32.0}),",
-      "        child: Center(",
-      "          child: Column(",
-      "            children: <Widget>[],",
-      "          ),",
-      "        ),",
-      "      ),",
-      "    );",
-      "${0}"
+      "  appBar: AppBar(",
+      "    title: Text('${1:Title}'),",
+      "  ),",
+      "  body: ${2:Container()}${0},",
+      ");"
     ],
     "description": "Scaffold widget snippet"
-  },
-  "StatefulWidget snippet App": {
-    "prefix": "fstfulapp",
-    "body": [
-      "import 'package:flutter/material.dart';",
-      "",
-      "void main() => runApp(MaterialApp(",
-      "      home: ${1:MyApp}(),",
-      "    ));",
-      "",
-      "class ${1:MyApp} extends StatefulWidget {",
-      "  @override",
-      "  _${1:MyApp}State createState() => _${1:MyApp}State();",
-      "}",
-      "",
-      "class _${1:MyApp}State extends State<${1:MyApp}> {",
-      "  @override",
-      "  Widget build(BuildContext context) {",
-      "    return Scaffold(",
-      "      appBar: AppBar(",
-      "        title: Text('${2:text}'),",
-      "      ),",
-      "      body: Container(",
-      "        padding: EdgeInsets.all(${3:32.0}),",
-      "        child: Center(",
-      "          child: Column(",
-      "            children: <Widget>[${0}],",
-      "          ),",
-      "        ),",
-      "      ),",
-      "    );",
-      "  }",
-      "}"
-    ],
-    "description": "StatefulWidget snippet App"
-  },
-  "StatelessWidget snippet": {
-    "prefix": "fstless",
-    "body": [
-      "import 'package:flutter/material.dart';",
-      "",
-      "class ${1:MyWidget} extends StatelessWidget {",
-      "  @override",
-      "  Widget build(BuildContext context){",
-      "    return ${2:Container}(${0});",
-      "  }",
-      "}"
-    ],
-    "description": "StatelessWidget snippet"
   },
   "EdgeInsets widget snippet with named constructor `all`": {
     "prefix": "fedgall",
@@ -120,12 +63,12 @@
   },
   "Flutter Row widget snippet": {
     "prefix": "frow",
-    "body": ["Row(", "  children: [${0}],", ")"],
+    "body": ["Row(", "  children: <Widget>[${0}],", ")"],
     "description": "Flutter Row widget snippet"
   },
   "Flutter Column widget snippet": {
     "prefix": "fcol",
-    "body": ["Column(", "  children: [${0}],", ")"],
+    "body": ["Column(", "  children: <Widget>[${0}],", ")"],
     "description": "Flutter Column widget snippet"
   },
   "SizedBox widget snippet with width and height arguments": {
@@ -205,23 +148,17 @@
   },
   "Dart `import hide` snippet": {
     "prefix": "dimphide",
-    "body": [
-      "import '${1:packageName}' hide ${2:excludedMember}${0};"
-    ],
+    "body": ["import '${1:packageName}' hide ${2:excludedMember}${0};"],
     "description": "Dart `import hide` snippet"
   },
   "Dart `export hide` snippet": {
     "prefix": "dexhide",
-    "body": [
-      "export '${1:file}' hide ${2:excludedMember}${0};"
-    ],
+    "body": ["export '${1:file}' hide ${2:excludedMember}${0};"],
     "description": "Dart `export hide` snippet"
   },
   "Dart `export show` snippet": {
     "prefix": "dexshow",
-    "body": [
-      "export '${1:file}' show ${2:member}${0};"
-    ],
+    "body": ["export '${1:file}' show ${2:member}${0};"],
     "description": "Dart `export show` snippet"
   },
   "Dart public method snippet": {
@@ -231,30 +168,22 @@
   },
   "Dart `convert` lib import snippet": {
     "prefix": "dconvert",
-    "body": [
-      "import 'dart:convert'${0};"
-    ],
+    "body": ["import 'dart:convert'${0};"],
     "description": "Dart `convert` lib import snippet"
   },
   "Dart `var` variable declaration snippet": {
     "prefix": "dvar",
-    "body": [
-      "var ${1:variableName}${0};"
-    ],
+    "body": ["var ${1:variableName}${0};"],
     "description": "Dart `var` variable declaration snippet"
   },
   "Dart `final` variable declaration snippet": {
     "prefix": "dfinal",
-    "body": [
-      "final ${1:type} ${2:variableName} = ${3:value}${0};"
-    ],
+    "body": ["final ${1:type} ${2:variableName} ${3:= }${0};"],
     "description": "Dart `final` variable declaration snippet"
   },
   "Dart `const` variable declaration snippet": {
     "prefix": "dconst",
-    "body": [
-      "const ${1:type} ${2:variableName} = ${3:value}${0};"
-    ],
+    "body": ["const ${1:type} ${2:variableName} ${3:= }${0};"],
     "description": "Dart `const` variable declaration snippet"
   },
   "Dart public arrow function snippet": {
@@ -266,5 +195,30 @@
     "prefix": "dprarr",
     "body": ["${1:Object} _${2:methodName}(${3}) ${4}=> ${0};"],
     "description": "Dart private arrow function snippet"
+  },
+  "Add material's package import statement": {
+    "prefix": "fimpmat",
+    "body": ["import 'package:flutter/material.dart';"],
+    "description": "Add material's package import statement"
+  },
+  "Flutter StreamBuilder widget snippet": {
+    "prefix": "fstream",
+    "body": [
+      "StreamBuilder<${1:dynamic}>(        ",
+      "  stream: ${2:yourStream},",
+      "  builder: (BuildContext context, AsyncSnapshot<${1:dynamic}> snapshot) {",
+      "      if (snapshot.hasData) {",
+      "       // TODO: do something with the data",
+      "       return ${3:Container()};",
+      "      } else if (snapshot.hasError) {",
+      "      // TODO: do something with the error",
+      "       return ${4:Text(snapshot.error.toString())};",
+      "      }",
+      "      // TODO: the data is not ready, show a loading indicator",
+      "      return ${5:Center(child: CircularProgressIndicator())};",
+      "   },",
+      ")"
+    ],
+    "description": "Flutter StreamBuilder widget snippet"
   }
 }
