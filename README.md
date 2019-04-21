@@ -64,7 +64,19 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `dexshow`  | Dart `export show` snippet                         |
 | `dconvert` | Dart `convert` lib import snippet                  |
 
+### Flutter patterns
+
+| Snippet     | Description                   |
+| ----------- | ----------------------------- |
+| `fblocprov` | Flutter bloc provider snippet |
+
 ## Release Notes
+
+## 2.1.0
+
+- Features
+  - add `fblocprov` bloc provider snippet.
+
 
 ## 2.0.0
 
