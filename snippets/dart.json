@@ -201,6 +201,11 @@
     "body": ["import 'package:flutter/material.dart';"],
     "description": "Add material's package import statement"
   },
+  "Add meta package import statement": {
+    "prefix": "dimpmeta",
+    "body": ["import 'package:meta/meta.dart';"],
+    "description": "Add meta package import statement"
+  },
   "Flutter StreamBuilder widget snippet": {
     "prefix": "fstream",
     "body": [
