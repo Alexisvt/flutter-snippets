@@ -249,7 +249,7 @@
   },
   "Dart anonymous function": {
     "prefix": "dan",
-    "body": ["(${1}) ${2} {${0}}"],
+    "body": ["(${1}) ${2}{${0}}"],
     "description": "Dart anonymous function"
   }
 }
