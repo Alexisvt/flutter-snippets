@@ -36,7 +36,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `fedgsymv`  | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
 | `fedgsymh`  | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
 | `fimpmat`   | Add material's package import statement                                          |
-| `fstream`   | Display a StreamBuilder widget      ****                                         |
+| `fstream`   | Display a StreamBuilder widget \*\*\*\*                                          |
 
 ### Dart related snippets
 
@@ -64,6 +64,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `dexshow`  | Dart `export show` snippet                         |
 | `dconvert` | Dart `convert` lib import snippet                  |
 | `dimpmeta` | Add meta package import statement                  |
+| `dan`      | Add a Dart anonymous function                      |
 
 ### Flutter Bloc pattern snippets
 
@@ -78,7 +79,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 - Features
   - add `fblocprov` bloc provider snippet.
   - add `dimpmeta`, which add meta package import statement.
-
+  - add Dart anonymous function - `dan` .
 
 ## 2.0.0
 
