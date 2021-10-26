@@ -14,29 +14,29 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ### Flutter related snippets
 
-| Snippet     | Description                                                                      |
-| ----------- | -------------------------------------------------------------------------------- |
-| `fscaff`    | Scaffold widget snippet                                                          |
-| `fstfulapp` | StatefulWidget snippet App                                                       |
-| `fstless`   | StatelessWidget snippet                                                          |
-| `fedgall`   | EdgeInsets widget snippet with named constructor `all`                           |
-| `fedgonly`  | EdgeInsets widget snippet with named constructor `only`                          |
-| `ftxt`      | Text widget snippet                                                              |
-| `finitlf`   | Flutter initState lifecycle method snippet                                       |
-| `fic`       | Flutter Icon widget snippet                                                      |
-| `fcont`     | Flutter Container widget snippet                                                 |
-| `fcent`     | Flutter Center widget snippet                                                    |
-| `frow`      | Flutter Row widget snippet                                                       |
-| `fcol`      | Flutter Column widget snippet                                                    |
-| `fex`       | Expand widget snippet                                                            |
-| `fszbw`     | SizedBox widget snippet with just width argument                                 |
-| `fszbh`     | SizedBox widget snippet with just height argument                                |
-| `fszb`      | SizedBox widget with width and height arguments                                  |
-| `fedgsym`   | EdgeInsets widget with named constructor `symmetric`                             |
-| `fedgsymv`  | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
-| `fedgsymh`  | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
-| `fimpmat`   | Add material's package import statement                                          |
-| `fstream`   | Display a StreamBuilder widget \*\*\*\*                                          |
+| Snippet         | Description                                                                      |
+| --------------- | -------------------------------------------------------------------------------- |
+| `fscaff`        | Scaffold widget snippet                                                          |
+| ~~`fstfulapp`~~ | ~~StatefulWidget snippet App ~~ Use `stful` instead                              |
+| ~~`fstless`~~   | ~~StatelessWidget snippet~~ Use `stless` instead                                 |
+| `fedgall`       | EdgeInsets widget snippet with named constructor `all`                           |
+| `fedgonly`      | EdgeInsets widget snippet with named constructor `only`                          |
+| `ftxt`          | Text widget snippet                                                              |
+| `finitlf`       | Flutter initState lifecycle method snippet                                       |
+| `fic`           | Flutter Icon widget snippet                                                      |
+| `fcont`         | Flutter Container widget snippet                                                 |
+| `fcent`         | Flutter Center widget snippet                                                    |
+| `frow`          | Flutter Row widget snippet                                                       |
+| `fcol`          | Flutter Column widget snippet                                                    |
+| `fex`           | Expand widget snippet                                                            |
+| `fszbw`         | SizedBox widget snippet with just width argument                                 |
+| `fszbh`         | SizedBox widget snippet with just height argument                                |
+| `fszb`          | SizedBox widget with width and height arguments                                  |
+| `fedgsym`       | EdgeInsets widget with named constructor `symmetric`                             |
+| `fedgsymv`      | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
+| `fedgsymh`      | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
+| `fimpmat`       | Add material's package import statement                                          |
+| `fstream`       | Display a StreamBuilder widget \*\*\*\*                                          |
 
 ### Dart related snippets
 
@@ -80,6 +80,8 @@ I'm working hard to select all the day to day widgets, so wait for more!.
   - add `fblocprov` bloc provider snippet.
   - add `dimpmeta`, which add meta package import statement.
   - add Dart anonymous function - `dan` .
+  - remove from the Flutter related snippets `fstfulapp` and `fstless`.
+    - use `stless` and `stful` instead, [these come with the official Flutter extension](https://flutter.dev/docs/development/tools/vs-code#snippets).
 
 ## 2.0.0
 
