@@ -201,6 +201,11 @@
     "body": ["import 'package:flutter/material.dart';"],
     "description": "Add material's package import statement"
   },
+  "Add meta package import statement": {
+    "prefix": "dimpmeta",
+    "body": ["import 'package:meta/meta.dart';"],
+    "description": "Add meta package import statement"
+  },
   "Flutter StreamBuilder widget snippet": {
     "prefix": "fstream",
     "body": [
@@ -220,5 +225,31 @@
       ")"
     ],
     "description": "Flutter StreamBuilder widget snippet"
+  },
+  "Flutter bloc provider snippet": {
+    "prefix": "fblocprov",
+    "body": [
+      "class ${1:Bloc}Provider extends InheritedWidget {",
+      "  final ${2:BlocTypeName} bloc = ${2:BlocTypeName}();",
+      "",
+      "  ${1:Bloc}Provider({Key key, Widget child})",
+      "      : super(key: key, child: child);",
+      "",
+      "  @override",
+      "  bool updateShouldNotify(InheritedWidget oldWidget) => true;",
+      "",
+      "  static ${2:BlocTypeName} of(BuildContext context) {",
+      "    return (context.inheritFromWidgetOfExactType(${1:Bloc}Provider)",
+      "            as ${1:Bloc}Provider)",
+      "        .bloc;",
+      "  }",
+      "}"
+    ],
+    "description": "Flutter bloc provider snippet"
+  },
+  "Dart anonymous function": {
+    "prefix": "dan",
+    "body": ["(${1}) ${2}{${0}}"],
+    "description": "Dart anonymous function"
   }
 }
