@@ -36,7 +36,8 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `fedgsymv` | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
 | `fedgsymh` | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
 | `fimpmat`  | Add material's package import statement                                          |
-| `fstream`  | Display a StreamBuilder widget \*\*\*\*                                          |
+| `fstream`  | Display a StreamBuilder widget                                                   |
+| `felbtn`   | Flutter ElevatedButton snippet                                                   |
 
 ### Dart related snippets
 
@@ -65,6 +66,8 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `dconvert` | Dart `convert` lib import snippet                  |
 | `dimpmeta` | Add meta package import statement                  |
 | `dan`      | Add a Dart anonymous function                      |
+| `dcla`     | Add Dart Class snippet                             |
+| `dclae`    | Add Dart Class snippet with extends keyword        |
 
 ### Flutter Bloc pattern snippets
 
@@ -82,6 +85,9 @@ I'm working hard to select all the day to day widgets, so wait for more!.
   - add `fstful` snippet.
   - make semicolon optional for `fscaff` snippet.
   - prepend `const` keyword to some widgets to avoid linter warnings.
+  - add `felbtn` snippet.
+  - add `dcla` Dart Class snippet.
+  - add `dclae` Add Dart Class snippet with extends keyword.
 
 ## 2.1.0
 

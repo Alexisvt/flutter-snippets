@@ -39,9 +39,9 @@
     "body": [
       "Scaffold(",
       "  appBar: AppBar(",
-      "    title: const Text('${1:Title}'),",
+      "    title: ${1:const} Text('${2:Title}'),",
       "  ),",
-      "  body: ${2:Container()},",
+      "  body: ${3:Container()},",
       ")${3:;}"
     ],
     "description": "Scaffold widget snippet"
@@ -53,7 +53,7 @@
   },
   "Text widget snippet": {
     "prefix": "ftxt",
-    "body": ["const Text('${1:text}')${0}"],
+    "body": ["${1:const} Text('${2:text}')${0}"],
     "description": "Text widget snippet"
   },
   "Dart Public Instance variable snippet": {
@@ -261,6 +261,16 @@
     ],
     "description": "Flutter StreamBuilder widget snippet"
   },
+  "Flutter ElevatedButton snippet": {
+    "prefix": "felbtn",
+    "body": [
+      "ElevatedButton(",
+      "  child: const Text('${1:Button label}'),",
+      "  onPressed: () {},",
+      ")${0}"
+    ],
+    "description": "Flutter ElevatedButton snippet"
+  },
   "Flutter bloc provider snippet": {
     "prefix": "fblocprov",
     "body": [
@@ -286,5 +296,19 @@
     "prefix": "dan",
     "body": ["(${1}) ${2}{${0}}"],
     "description": "Dart anonymous function"
+  },
+  "Dart Class snippet": {
+    "prefix": "dcla",
+    "body": ["class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} {", "${0}", "}"],
+    "description": "Dart Class snippet"
+  },
+  "Dart Class snippet with extends keyword": {
+    "prefix": "dclae",
+    "body": [
+      "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} extends ${2} {",
+      "  ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}(${0}) : super();",
+      "}"
+    ],
+    "description": "Dart Class snippet with extends keyword"
   }
 }
