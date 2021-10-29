@@ -16,8 +16,8 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 | Snippet    | Description                                                                      |
 | ---------- | -------------------------------------------------------------------------------- |
-| `fstful`   | StatefulWidget snippet                                                           |
-| `fstless`  | StatelessWidget snippet                                                          |
+| `fstful`   | StatefulWidget snippet. This is an alternative of `stful`                        |
+| `fstless`  | StatelessWidget snippet. This is an alternative of `stless`                      |
 | `fscaff`   | Scaffold widget snippet                                                          |
 | `fedgall`  | EdgeInsets widget snippet with named constructor `all`                           |
 | `fedgonly` | EdgeInsets widget snippet with named constructor `only`                          |
@@ -80,9 +80,8 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 ## 3.0.0
 
 - Features
-  - put back `fstless` but this time this works differently, now the Widget will be named base on the file name.
-    - If you don't want this behavior you can use `stless` instead.
-  - add `fstful` snippet.
+  - put back `fstless` and `fstful` but this time this works differently, now the Widget will be named base on the file name.
+    - If you don't want this behavior you can use `stless` or `stful` instead.
   - make semicolon optional for `fscaff` snippet.
   - prepend `const` keyword to some widgets to avoid linter warnings.
   - add `felbtn` snippet.
