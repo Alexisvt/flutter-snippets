@@ -1,13 +1,48 @@
 {
+  "Stateless widget snippet": {
+    "prefix": "fstless",
+    "body": [
+      "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} extends StatelessWidget {",
+      "const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}({ Key? key }) : super(key: key);",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context){",
+      "    return ${2:Container}(${0});",
+      "  }",
+      "}"
+    ],
+    "description": "StatelessWidget snippet"
+  },
+  "Stateful widget snippet": {
+    "prefix": "fstful",
+    "description": "Insert a StatefulWidget",
+    "body": [
+      "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} extends StatefulWidget {",
+      "  const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}({ Key? key }) : super(key: key);",
+      "",
+      "  @override",
+      "  _${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}State createState() => _${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}State();",
+      "}",
+      "",
+      "class _${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}State extends State<${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}> {",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Container(",
+      "      $2",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
   "Scaffold widget snippet": {
     "prefix": "fscaff",
     "body": [
       "Scaffold(",
       "  appBar: AppBar(",
-      "    title: Text('${1:Title}'),",
+      "    title: ${1:const} Text('${2:Title}'),",
       "  ),",
-      "  body: ${2:Container()}${0},",
-      ");"
+      "  body: ${3:Container()},",
+      ")${3:;}"
     ],
     "description": "Scaffold widget snippet"
   },
@@ -18,7 +53,7 @@
   },
   "Text widget snippet": {
     "prefix": "ftxt",
-    "body": ["Text('${1:text}')${0}"],
+    "body": ["${1:const} Text('${2:text}')${0}"],
     "description": "Text widget snippet"
   },
   "Dart Public Instance variable snippet": {
@@ -173,7 +208,7 @@
   },
   "Dart `var` variable declaration snippet": {
     "prefix": "dvar",
-    "body": ["var ${1:variableName}${0};"],
+    "body": ["${1:var} ${2:variableName}${0}"],
     "description": "Dart `var` variable declaration snippet"
   },
   "Dart `final` variable declaration snippet": {
@@ -226,6 +261,16 @@
     ],
     "description": "Flutter StreamBuilder widget snippet"
   },
+  "Flutter ElevatedButton snippet": {
+    "prefix": "felbtn",
+    "body": [
+      "ElevatedButton(",
+      "  child: const Text('${1:Button label}'),",
+      "  onPressed: () {},",
+      ")${0}"
+    ],
+    "description": "Flutter ElevatedButton snippet"
+  },
   "Flutter bloc provider snippet": {
     "prefix": "fblocprov",
     "body": [
@@ -251,5 +296,19 @@
     "prefix": "dan",
     "body": ["(${1}) ${2}{${0}}"],
     "description": "Dart anonymous function"
+  },
+  "Dart Class snippet": {
+    "prefix": "dcla",
+    "body": ["class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} {", "${0}", "}"],
+    "description": "Dart Class snippet"
+  },
+  "Dart Class snippet with extends keyword": {
+    "prefix": "dclae",
+    "body": [
+      "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} extends ${2} {",
+      "  ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}(${0}) : super();",
+      "}"
+    ],
+    "description": "Dart Class snippet with extends keyword"
   }
 }

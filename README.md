@@ -14,29 +14,30 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ### Flutter related snippets
 
-| Snippet         | Description                                                                      |
-| --------------- | -------------------------------------------------------------------------------- |
-| `fscaff`        | Scaffold widget snippet                                                          |
-| ~~`fstfulapp`~~ | ~~StatefulWidget snippet App ~~ Use `stful` instead                              |
-| ~~`fstless`~~   | ~~StatelessWidget snippet~~ Use `stless` instead                                 |
-| `fedgall`       | EdgeInsets widget snippet with named constructor `all`                           |
-| `fedgonly`      | EdgeInsets widget snippet with named constructor `only`                          |
-| `ftxt`          | Text widget snippet                                                              |
-| `finitlf`       | Flutter initState lifecycle method snippet                                       |
-| `fic`           | Flutter Icon widget snippet                                                      |
-| `fcont`         | Flutter Container widget snippet                                                 |
-| `fcent`         | Flutter Center widget snippet                                                    |
-| `frow`          | Flutter Row widget snippet                                                       |
-| `fcol`          | Flutter Column widget snippet                                                    |
-| `fex`           | Expand widget snippet                                                            |
-| `fszbw`         | SizedBox widget snippet with just width argument                                 |
-| `fszbh`         | SizedBox widget snippet with just height argument                                |
-| `fszb`          | SizedBox widget with width and height arguments                                  |
-| `fedgsym`       | EdgeInsets widget with named constructor `symmetric`                             |
-| `fedgsymv`      | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
-| `fedgsymh`      | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
-| `fimpmat`       | Add material's package import statement                                          |
-| `fstream`       | Display a StreamBuilder widget \*\*\*\*                                          |
+| Snippet    | Description                                                                      |
+| ---------- | -------------------------------------------------------------------------------- |
+| `fstful`   | StatefulWidget snippet. This is an alternative of `stful`                        |
+| `fstless`  | StatelessWidget snippet. This is an alternative of `stless`                      |
+| `fscaff`   | Scaffold widget snippet                                                          |
+| `fedgall`  | EdgeInsets widget snippet with named constructor `all`                           |
+| `fedgonly` | EdgeInsets widget snippet with named constructor `only`                          |
+| `ftxt`     | Text widget snippet                                                              |
+| `finitlf`  | Flutter initState lifecycle method snippet                                       |
+| `fic`      | Flutter Icon widget snippet                                                      |
+| `fcont`    | Flutter Container widget snippet                                                 |
+| `fcent`    | Flutter Center widget snippet                                                    |
+| `frow`     | Flutter Row widget snippet                                                       |
+| `fcol`     | Flutter Column widget snippet                                                    |
+| `fex`      | Expand widget snippet                                                            |
+| `fszbw`    | SizedBox widget snippet with just width argument                                 |
+| `fszbh`    | SizedBox widget snippet with just height argument                                |
+| `fszb`     | SizedBox widget with width and height arguments                                  |
+| `fedgsym`  | EdgeInsets widget with named constructor `symmetric`                             |
+| `fedgsymv` | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
+| `fedgsymh` | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
+| `fimpmat`  | Add material's package import statement                                          |
+| `fstream`  | Display a StreamBuilder widget                                                   |
+| `felbtn`   | Flutter ElevatedButton snippet                                                   |
 
 ### Dart related snippets
 
@@ -65,6 +66,8 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `dconvert` | Dart `convert` lib import snippet                  |
 | `dimpmeta` | Add meta package import statement                  |
 | `dan`      | Add a Dart anonymous function                      |
+| `dcla`     | Add Dart Class snippet                             |
+| `dclae`    | Add Dart Class snippet with extends keyword        |
 
 ### Flutter Bloc pattern snippets
 
@@ -73,6 +76,20 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 | `fblocprov` | Flutter bloc provider snippet |
 
 ## Release Notes
+
+## 3.0.0
+
+- Features
+  - put back `fstless` and `fstful` but this time these work differently, now the Widgets will be named base on the file name.
+    - If you don't want this behavior you can use `stless` or `stful` instead.
+  - make semicolon optional for `fscaff` snippet.
+  - prepend `const` keyword to some widgets to avoid linter warnings.
+  - add `felbtn` snippet.
+  - add `dcla` Dart Class snippet.
+  - add `dclae` Add Dart Class snippet with extends keyword.
+- Breaking Changes
+  - `var` on `dvar` snippet is now optional, you can choose to use a type instead, and the semicolon was removed.
+    - this open the possibility to use `dvar` for parameter declaration.
 
 ## 2.1.0
 
