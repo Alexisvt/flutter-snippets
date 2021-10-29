@@ -208,7 +208,7 @@
   },
   "Dart `var` variable declaration snippet": {
     "prefix": "dvar",
-    "body": ["var ${1:variableName}${0};"],
+    "body": ["${1:var} ${2:variableName}${0}"],
     "description": "Dart `var` variable declaration snippet"
   },
   "Dart `final` variable declaration snippet": {

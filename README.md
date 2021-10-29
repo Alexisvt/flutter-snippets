@@ -77,7 +77,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ## Release Notes
 
-## 2.2.0
+## 3.0.0
 
 - Features
   - put back `fstless` but this time this works differently, now the Widget will be named base on the file name.
@@ -88,6 +88,9 @@ I'm working hard to select all the day to day widgets, so wait for more!.
   - add `felbtn` snippet.
   - add `dcla` Dart Class snippet.
   - add `dclae` Add Dart Class snippet with extends keyword.
+- Breaking Changes
+  - `var` on `dvar` snippet is now optional, you can choose to use a type instead, and the semicolon was removed.
+    - this open the possibility to use `dvar` for parameter declaration.
 
 ## 2.1.0
 
