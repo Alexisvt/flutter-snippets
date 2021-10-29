@@ -80,7 +80,7 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 ## 3.0.0
 
 - Features
-  - put back `fstless` and `fstful` but this time this works differently, now the Widget will be named base on the file name.
+  - put back `fstless` and `fstful` but this time these work differently, now the Widgets will be named base on the file name.
     - If you don't want this behavior you can use `stless` or `stful` instead.
   - make semicolon optional for `fscaff` snippet.
   - prepend `const` keyword to some widgets to avoid linter warnings.
