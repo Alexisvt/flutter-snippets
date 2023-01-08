@@ -42,7 +42,7 @@
       "    title: ${1:const} Text('${2:Title}'),",
       "  ),",
       "  body: ${3:Container()},",
-      ")${3:;}"
+      ");"
     ],
     "description": "Scaffold widget snippet"
   },
